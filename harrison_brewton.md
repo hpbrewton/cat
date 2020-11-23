@@ -6,6 +6,8 @@ title: Harrison Brewton
 
 *Interests:* Computer Algebra, Program Synthesis, Parallel Computing, and Runtime Systems
 
+*Contact:* hbrewton at wisc dot edu
+
 # Projects
 
 - [dyn](https://github.com/hpbrewton/dyn), A simple computer algebra library
