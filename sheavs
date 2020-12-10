@@ -1,0 +1,40 @@
+---
+title: Sheaves
+---
+
+# Germs
+
+Suppose that you have two functions $f$ and $g$ defined on the same domain and codomain topologies.
+There is a sense in which $f$ and $g$ can be locally equivalent at some $x$,
+if there exists some neighborhood of $x$ such that when these two maps are restricted ot that neighborhood that they are equal.
+We can use this idea to define an equivalence relation on functions.
+Saying that $f \sim_{x} g$ if they have such a neighborhood of equivalence.
+
+# Tangent Bundle
+
+Suppose that you have some smooth function between manifolds, $f$.
+And, you want to define its derivative.
+Normally, we would define this by assigning to each point the linear operator that best approximates the function at that point.
+However, linear operators can not necessarily be defined on the whole of the domain and codomain if they are manifolds.
+So, instead we provide linear operators defined on the trangent space of the manifold.
+Thus derivatives live not in the same domain and codomain as the manifolds,
+but in the domain zippered with the tangents pace at each poin in the domain:
+
+	$TD = \{(x, Tx) : x \in D\}$
+
+# Sheaves, definition
+
+A sheaf is way of attaching information to the open sets of some topology.
+To each open set $U$ we associate a set $F(U)$.
+This $F$ function must satisfy the following properties:
+	- contravariance: if $U$ is a subset of $V$ then there is a function, called the restriction function $F(V) \to F(U)$
+	- locality: if two sections of $F(U)$ agree on all their restrictrions to subsets of $U$, then they are in fact equal
+	- gluing: if sections exist on for a covering of $U$, that agree when restricted to their pairwise intersections, then there is a section that makes them all agree
+
+# Sheafacation
+
+It can be nicer to deal in sheaves // TODO why?
+So, we might want to turn a presheaf into some sheaves.
+This process is called sheafication. 
+It involves adding the necessary sections to make gluing,
+and removing the necessary sections make locality work.

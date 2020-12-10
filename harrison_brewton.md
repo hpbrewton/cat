@@ -19,6 +19,7 @@ title: Harrison Brewton
 
 # Writing
 
+- [sheaves](./sheaves.html), what are they?
 - [proverbs](./proverbs.html), here are some of mine
 - [monads](./monads.html), what are they?
 - [Senior Thesis](https://github.com/hpbrewton/axe/blob/master/paper/main.pdf), here it is

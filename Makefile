@@ -4,5 +4,5 @@ main:
 
 push:
 	git add *
-	git commit -m "view updated main page"
+	echo git commit -m 'pushed on $(date)'
 	git push
